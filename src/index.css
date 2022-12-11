@@ -2,12 +2,13 @@
 @import url('https://fonts.google.com/specimen/Fraunces');
 
 :root {
-  --pry-family-font: 'Barlow', sans-serif;
-  --sec-family-font: 'Fraunces', sans-serif;
+  --pry-fony-family: 'Barlow', sans-serif;
+  --sec-font-family: 'Fraunces', sans-serif;
 
   --pry-font-weight: 600;
   --sec-font-weight: 700;
   --alt-font-weight: 900;
+  
 
   --soft-red-color: hsl(7, 99%, 70%);
   --yello-color: hsl(51, 100%, 49%);

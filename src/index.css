@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.google.com/specimen/Barlow');
+@import url('https://fonts.google.com/specimen/Fraunces');
+
+:root {
+  --pry-family-font: 'Barlow', sans-serif;
+  --sec-family-font: 'Fraunces', sans-serif;
+
+  --pry-font-weight: 600;
+  --sec-font-weight: 700;
+  --alt-font-weight: 900;
+
+  --soft-red-color: hsl(7, 99%, 70%);
+  --yello-color: hsl(51, 100%, 49%);
+  --graphic-text-color: hsl(167, 40%, 24%);
+  --photography-color: hsl(198, 62%, 26%);
+  --footer-color: hsl(168, 34%, 41%);
+
+  --dark-blue-color: hsl(212, 27%, 19%);
+  --dark-grayish-blue-color: hsl(213, 9%, 39%);
+  --grayish-blue-color: hsl(232, 10%, 55%);
+  --light-grayish-blue-color: hsl(210, 4%, 67%);
+  --white-color: hsl(0, 0%, 100%)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
